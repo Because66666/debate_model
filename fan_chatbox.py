@@ -3,7 +3,7 @@ import requests
 from codecs import getincrementaldecoder
 from fan_config import *
 def CreateConversationRequest_2():
-    url = "https://coze.nankai.edu.cn/api/proxy/api/v1/create_conversation"
+    url = "https://xxx/api/proxy/api/v1/create_conversation"
     headers = {
         "Apikey": fcoze_apikey,
         "Content-Type": "application/json"
@@ -22,7 +22,7 @@ def CreateConversationRequest_2():
     return app_conversation_id
 
 def Chat_fan(Conversation_id,MESSAGE):
-    url = "https://coze.nankai.edu.cn/api/proxy/api/v1/chat_query"
+    url = "https://xxx/api/proxy/api/v1/chat_query"
     headers = {
         "Apikey": fcoze_apikey,
         "Content-Type": "application/json"
